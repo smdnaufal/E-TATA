@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 $routes->get('/', 'Pages::index');
+$routes->get('/admin', 'admin\Dashboard::index');
+$routes->get('/user', 'user\Landing_Page::index');
 
 /*
  * --------------------------------------------------------------------
