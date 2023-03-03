@@ -21,9 +21,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
-                <a class="nav-link" href="<?= base_url('/pages/about'); ?>">About</a>
-                <a class="nav-link" href="<?= base_url('/pages/contact'); ?>">Contact</a>
+                <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>">Berand</a>
+                <a class="nav-link" href="<?= base_url('/pages/about'); ?>">Tentang</a>
+                <a class="nav-link" href="<?= base_url('/pages/contact'); ?>">Kontak</a>
+                <a class="nav-link" href="<?= base_url('#'); ?>">Dokumentasi</a>
                 <a href="asset" class="btn btn-success">Login</a>
             </div>
         </div>
