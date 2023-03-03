@@ -31,7 +31,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                 <i class="fas fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Dashboard Admin</span></a>
             </li>
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
