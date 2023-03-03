@@ -1,7 +1,6 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('content'); ?>
-
 <section class="jumbotron">
 
     <div class="container">
@@ -24,22 +23,26 @@
                 <div class="card border-light mb-3 shadow" style="max-width: 18rem; margin-left:200px;">
                     <div class="card-header bg-transparent border-light" style="color: #18DF14;"> <b>Website Profil</b> </div>
                     <div class="card-body text-success">
-                        <img src="/img/bspji.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
-                        <h5 class="card-title">Success card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-50 translate-middle"><img style="margin-top: 10px;" src="/img/bspji.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
+                            </div>
+                        </div>
+                        <p class="card-text" style="margin-top: 25px;">Halaman website Balai Standardisasi dan Pelayanan Jasa Industri Samarinda secara detail seperti profil visi dan misi, informasi publik, dan lain-lain.</p>
                     </div>
-                    <div class="card-footer bg-transparent border-light">Footer</div>
+                    <div class="card-footer bg-transparent border-light"><a class="text-decoration-none" style="color:#18DF14;" href="https://baristandsamarinda.kemenperin.go.id/">Selengkapnya...</a></div>
                 </div>
             </div>
             <div class="col">
                 <div class="card border-light mb-3 shadow" style="max-width: 18rem; margin-left:50px;">
-                    <div class="card-header bg-transparent border-light" style="color: #18DF14;"> <b>Website Profil</b> </div>
+                    <div class="card-header bg-transparent border-light" style="color: #18DF14;"> <b>HELPDESK</b> </div>
                     <div class="card-body text-success">
-                        <img src="/img/bspji.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
-                        <h5 class="card-title">Success card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-50 translate-middle"><img style="margin-top: 10px;" src="/img/whatsapp-logo-png-hd-2.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
+                            </div>
+                        </div>
+                        <p class="card-text" style="margin-top: 25px;">Layanan berbasis WA untuk memudahkan user berkonsultasi dengan operator kami.</p>
                     </div>
-                    <div class="card-footer bg-transparent border-light">Footer</div>
+                    <div class="card-footer bg-transparent border-light"><a class="text-decoration-none" style="color:#18DF14;" href="https://wa.me/08125533977">Selengkapnya...</a></div>
                 </div>
             </div>
         </div>
