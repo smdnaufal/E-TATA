@@ -21,7 +21,7 @@
                 <div class="sidebar-brand-icon">
                 
                 </div>
-                <div class="sidebar-brand-text " >E-TATA DINAS <br>BSPJI SAMARINDA</div>
+                <div class="sidebar-brand-text " >E-TATA DINAS 1s <br>BSPJI SAMARINDA</div>
             </a>
 
             <!-- Divider -->
