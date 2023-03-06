@@ -15,6 +15,7 @@
     <!-- Custom styles for this template-->
     <link href="/asset/css/sb-admin-2.min.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="/asset/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <title><?= $title; ?></title>
 </head>
 
@@ -31,7 +32,7 @@
     <script src="/asset/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="/asset/js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/asset/js/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="/asset/js/sb-admin-2.min.js"></script>
@@ -42,6 +43,11 @@
     <!-- Page level custom scripts -->
     <script src="/asset/js/chart-area-demo.js"></script>
     <script src="/asset/js/chart-pie-demo.js"></script>
+    <script src="/asset/js/jquery.dataTables.min.js"></script>
+    <script src="/asset/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="/asset/js/datatables-demo.js"></script>
 </body>
 
 </html>

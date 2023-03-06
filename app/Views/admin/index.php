@@ -21,7 +21,7 @@
                 <div class="sidebar-brand-icon">
                 
                 </div>
-                <div class="sidebar-brand-text " >E-TATA DINAS 12 <br>BSPJI SAMARINDA</div>
+                <div class="sidebar-brand-text " >E-TATA DINAS<br>BSPJI SAMARINDA</div>
             </a>
 
             <!-- Divider -->
@@ -29,14 +29,13 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="/admin">
                 <i class="fas fa-tachometer-alt"></i>
-                    <span>Dashboard Admin 1</span></a>
+                    <span>Dashboard Admin</span></a>
             </li>
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="/admin/Pegawai">
                     <i class="fa-solid fa-users"></i>
                     <span>Daftar Pegawai</span>
                     
@@ -345,85 +344,75 @@
                     <!-- Content Row -->
 
                     <div class="row">
-
-                        <!-- Area Chart -->
-                        <div class="col-xl-8 col-lg-7">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
-                                    <div class="dropdown no-arrow">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                            aria-labelledby="dropdownMenuLink">
-                                            <div class="dropdown-header">Dropdown Header:</div>
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                       
+                            <!-- Area Chart -->
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="card shadow mb-4">
+                                    <!-- Card Header - Dropdown -->
+                                    <div
+                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary">Surat Masuk</h6>
+                                        <div class="dropdown no-arrow">
                                         </div>
                                     </div>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body">
-                                    <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
-                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+                                    
+                                        <table class="table table-bordered">
+                                            <thead >
+                                                <tr>
+                                                <th scope="col">Nota Dinas</th>
+                                                <th scope="col">Biasa</th>
+                                                <th scope="col">Rahasia</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>30</td>
+                                                <td>10</td>
+                                                <td>70</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Pie Chart -->
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
-                                    <div class="dropdown no-arrow">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                            aria-labelledby="dropdownMenuLink">
-                                            <div class="dropdown-header">Dropdown Header:</div>
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="card shadow mb-4">
+                                    <!-- Card Header - Dropdown -->
+                                    <div
+                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary">Surat Keluar</h6>
+                                        <div class="dropdown no-arrow">
                                         </div>
                                     </div>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body">
-                                    <div class="chart-pie pt-4 pb-2">
-                                        <canvas id="myPieChart"></canvas>
-                                    </div>
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-primary"></i> Direct
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-success"></i> Social
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-info"></i> Referral
-                                        </span>
-                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+                                    
+                                        <table class="table table-bordered">
+                                            <thead >
+                                                <tr>
+                                                <th scope="col">Nota Dinas</th>
+                                                <th scope="col">Biasa</th>
+                                                <th scope="col">Rahasia</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>30</td>
+                                                <td>10</td>
+                                                <td>70</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </div>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
-
 
                 </div>
                 <!-- /.container-fluid -->
-
             </div>
             <!-- End of Main Content -->
 

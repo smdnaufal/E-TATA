@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'user\Landing_Page::index');
 $routes->get('/admin', 'admin\Dashboard::index');
+$routes->get('/admin/Pegawai', 'admin\Dashboard::view');
+$routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
 $routes->get('/user', 'user\Landing_Page::index');
 
 /*

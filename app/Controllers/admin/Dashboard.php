@@ -8,13 +8,27 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-<<<<<<< HEAD
+
         $data = [
             "title" => "Dashboard"
         ];
         return view('admin/index', $data);
-=======
-        return view('admin/dashboard');
->>>>>>> 90a78c1e73d958461f1c8aa4e5fe1cd9798d5fa5
     }
+    public function view()
+    {
+
+        $data = [
+            "title" => "view"
+        ];
+        return view('admin/Pegawai/view', $data);
+    }
+    public function edit()
+    {
+
+        $data = [
+            "title" => "Edit"
+        ];
+        return view('admin/Pegawai/Edit', $data);
+    }
+
 }
