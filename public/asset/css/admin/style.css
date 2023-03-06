@@ -1,0 +1,17 @@
+.jumbotron{
+    padding-top: 6rem;
+    background-color: azure;
+}
+
+#kontak{
+    background-color: azure;
+}
+
+section{
+    padding-top: 6rem;
+}
+
+footer, a{
+    text-decoration: none;
+    color: white;
+}
