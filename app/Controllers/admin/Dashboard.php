@@ -6,6 +6,14 @@ use App\Controllers\BaseController;
 
 class Dashboard extends BaseController
 {
+    public function login()
+    {
+
+        $data = [
+            "title" => "login"
+        ];
+        return view('admin/login', $data);
+    }
     public function index()
     {
 
@@ -30,5 +38,14 @@ class Dashboard extends BaseController
         ];
         return view('admin/Pegawai/Edit', $data);
     }
+    public function detail()
+    {
+
+        $data = [
+            "title" => "detail"
+        ];
+        return view('admin/Pegawai/detail', $data);
+    }
+   
 
 }
