@@ -11,7 +11,7 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
     <div class="container">
 
-        <a class="navbar-brand" href="<?= base_url('/'); ?>">
+        <a class="navbar-brand" href=" /">
             <img src="/img/bspji.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
             <!-- <span style="margin-left: 46px;"></span> -->
         </a>
@@ -21,10 +21,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
-                <a class="nav-link" href="<?= base_url('/pages/about'); ?>">About</a>
-                <a class="nav-link" href="<?= base_url('/pages/contact'); ?>">Contact</a>
-                <a href="asset" class="btn btn-success">Login</a>
+                <a class="nav-link" aria-current="page" href=" /">Home</a>
+                <a class="nav-link" href=" /pages/about">About</a>
+                <a class="nav-link" href=" /pages/contact">Contact</a>
+                <a href="/user/login" class="btn btn-success">Login</a>
             </div>
         </div>
     </div>

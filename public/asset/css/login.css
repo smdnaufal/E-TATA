@@ -1,0 +1,33 @@
+.gradient-custom-2 {
+	/* fallback for old browsers */
+	background: #fccb90;
+	
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #49ef97, #32d84b, #0fcb5a, #1ab656);
+	
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #49ef97, #32d84b, #0fcb5a, #1ab656);
+	}
+	body {
+		background: #6e6f6f;
+		background: linear-gradient(to right, #9d9fa1, #787878);
+	  }
+	  
+	@media (min-width: 768px) {
+	.gradient-form {
+	height: 100vh !important;
+	}
+	}
+	@media (min-width: 769px) {
+	.gradient-custom-2 {
+	border-top-right-radius: .3rem;
+	border-bottom-right-radius: .3rem;
+	}
+	}
+	.btn.btn-block {
+		border-radius: 20px;
+		background-color: #05FF00;
+		color: #fff}
+		.btn.btn-block:hover {
+			background-color: #06c1c4e0
+		}
