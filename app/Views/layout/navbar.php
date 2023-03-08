@@ -11,7 +11,7 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
     <div class="container">
 
-        <a class="navbar-brand" href="<?= base_url('/'); ?>">
+        <a class="navbar-brand" href=" /">
             <img src="/img/bspji.png" alt="" width="30" height="34" class="d-inline-block align-text-top">
             <!-- <span style="margin-left: 46px;"></span> -->
         </a>
