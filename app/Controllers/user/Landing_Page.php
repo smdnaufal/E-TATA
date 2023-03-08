@@ -20,4 +20,10 @@ class Landing_Page extends BaseController
         ];
         return view('user/log', $data);
     }
+    public function dashboard()
+    {
+        $data = [
+            "title" => "dashboard"
+        ];
+        return view('user/dashboard', $data);}
 }

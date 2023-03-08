@@ -39,7 +39,7 @@ $routes->get('/admin/Pegawai', 'admin\Dashboard::view');
 $routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
 $routes->get('/user', 'user\Landing_Page::index');
-
+$routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
