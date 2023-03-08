@@ -46,6 +46,14 @@ class Dashboard extends BaseController
         ];
         return view('admin/Pegawai/detail', $data);
     }
+    public function invoice()
+    {
+
+        $data = [
+            "title" => "invoice"
+        ];
+        return view('admin/invoice', $data);
+    }
    
 
 }
