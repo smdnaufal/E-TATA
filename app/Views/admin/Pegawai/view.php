@@ -31,9 +31,10 @@
                             <td>Andreas johan</td>
                             <td>cobaaja@gmail.com</td>
                             <td>082353373130</td>
-                            <td><a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data" data-nip="198609262015051" data-nama="Andraes Johan" data-email="cobaaja@gmail.com" data-no="082353373130"><i class="fa-solid fa-pen-to-square "></i></a>
+                            <td>
+                                <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data" data-nip="198609262015051" data-nama="Andraes Johan" data-email="cobaaja@gmail.com" data-no="082353373130"><i class="fa-solid fa-pen-to-square "></i></a>
 
-                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data" data-nama="Andraes Johan"><i class="fa-solid fa-trash"></i></button>
+                                <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data" data-nama="Andraes Johan"><i class="fa-solid fa-trash"></i></a>
 
                                 <a href="#" class="btn btn-secondary btn-sm"><i class="fa-solid fa-circle-info"></i></a>
                             </td>
@@ -116,10 +117,10 @@
                                                     <input type="file" name="foto" id="foto" class="form-control">
                                                 </div>
                                             </div>
-                                            <div class="modal-footer">
-                                                <input type="submit" name="submit" class="btn btn-primary" value="Edit Data">
+                                            <div class="modal-footer ">
+                                                <input type="submit" name="submit" class="btn btn-primary" value="Tambah Data">
                                                 <a href="reset" class="btn btn-warning">Reset</a>
-                                                <a href="../mhs/mhs_home.php" class="btn btn-danger">Batal</a>
+                                                <a  class="btn btn-danger" data-dismiss="modal">Batal</a>
                                             </div><!-- /.box-footer -->
                                         </div> <!-- /.end row -->
                                     </div> <!-- /.end panel -->
@@ -206,7 +207,7 @@
                                         <div class="modal-footer">
                                             <input type="submit" name="submit" class="btn btn-primary" value="Edit Data">
                                             <a href="reset" class="btn btn-warning">Reset</a>
-                                            <a href="../mhs/mhs_home.php" class="btn btn-danger">Batal</a>
+                                            <a  class="btn btn-danger" data-dismiss="modal">Batal</a>
                                         </div><!-- /.box-footer -->
                                     </div> <!-- /.end row -->
                                 </div> <!-- /.end panel -->
@@ -236,25 +237,7 @@
             </div><!-- /.end modal-dialog -->
         </div><!-- /.end modal fate -->
 
-        <div class="modal fade" id="logout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel"> Logout</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Apakah Anda Yakin Ingin Keluar <span id="logout-ok"></span>?
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
-                    </div>
-                </div>
-            </div><!-- /.end modal-dialog -->
-        </div><!-- /.end modal fate -->
+        
 
 
     </div> <!-- End of Main Content -->
