@@ -12,7 +12,7 @@
 
     <!-- Custom styles for this template-->
     <link href="/asset/css/sb-admin-2.min.css" rel="stylesheet">
-    
+    <link href="/asset/css/admin/login.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <link href="/asset/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <title><?= $title; ?></title>
@@ -47,10 +47,6 @@
 
     <!-- Page level custom scripts -->
     <script src="/asset/js/datatables-demo.js"></script>
-
-    <!-- view -->
-    <script src="/asset/js/view.js"></script>
-
 </body>
 
 </html>

@@ -82,7 +82,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
-                <i class="fa-solid fa-right-from-bracket"></i>
+                <i class="fa-sharp fa-solid fa-power-off"></i>
                     <span>Log Out</span></a>
             </li>
             
