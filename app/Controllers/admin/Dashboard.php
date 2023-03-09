@@ -46,6 +46,30 @@ class Dashboard extends BaseController
         ];
         return view('admin/Pegawai/detail', $data);
     }
+    public function proses()
+    {
+
+        $data = [
+            "title" => "proses"
+        ];
+        return view('admin/proses', $data);
+    }
+    public function jabatan()
+    {
+
+        $data = [
+            "title" => "jabatan"
+        ];
+        return view('admin/jabatan', $data);
+    }
+    public function tanda_tangan()
+    {
+
+        $data = [
+            "title" => "tanda_tangan"
+        ];
+        return view('admin/tanda_tangan', $data);
+    }
    
 
 }

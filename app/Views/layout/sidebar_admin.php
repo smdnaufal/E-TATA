@@ -17,7 +17,7 @@
             <div class="sidebar-brand-icon">
 
             </div>
-            <div class="sidebar-brand-text ">E-TATA DINAS<br>BSPJI SAMARINDA</div>
+            <div class="sidebar-brand-text ">E-TATA NASKAH DINAS<br>BSPJI SAMARINDA</div>
         </a>
 
         <!-- Divider -->
@@ -38,30 +38,47 @@
             </a>
 
         </li>
+        <li class="nav-item ">
+            <a class="nav-link collapsed" href="/admin/jabatan">
+            <i class="fa-solid fa-user-tie"></i>
+                <span>Jabatan</span>
+
+            </a>
+
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link collapsed" href="/admin/tanda_tangan">
+            <i class="fa-solid fa-user-pen"></i>
+                <span>Penanda Tangan</span>
+
+            </a>
+
+        </li>
+
 
 
         <!-- Nav Item - Utilities Collapse Menu -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa-sharp fa-solid fa-envelopes-bulk"></i>
-                <span>Surat</span>
-            </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="utilities-color.html">Arsip</a>
-                    <a class="collapse-item" href="utilities-border.html">Jenis Surat</a>
-                    <a class="collapse-item" href="utilities-animation.html">Tujuan Surat</a>
-                </div>
-            </div>
+        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Layouts
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="layout-static.html">Static Navigation</a>
+                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                                </nav>
+                            </div>
         </li>
 
         <!-- Divider -->
         <hr class="sidebar-divider">
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <a class="nav-link collapsed" href="/admin/proses">
                 <i class="fa-solid fa-receipt"></i>
-                <span>Invoice</span>
+                <span>Proses</span>
             </a>
         </li>
 
@@ -74,9 +91,9 @@
 
         <!-- Nav Item - Tables -->
         <li class="nav-item">
-            <a class="nav-link" href="" data-toggle="modal" data-target="#loguot">
-                <i class="fa-sharp fa-solid fa-power-off"></i>
-                <span>Log Out</span></a>
+        <a href="" class="nav-link" data-toggle="modal" data-target="#logout" ><i class="fa-sharp fa-solid fa-power-off"></i>Logout</a>
+                
+              
         </li>
 
 
@@ -109,17 +126,7 @@
                     </button>
                 </form>
 
-                <!-- Topbar Search -->
-                <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                    <div class="input-group">
-                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="button">
-                                <i class="fas fa-search fa-sm"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
+               
 
                 <!-- Topbar Navbar -->
                 <ul class="navbar-nav ml-auto">
@@ -228,3 +235,22 @@
                 </ul>
 
             </nav>
+            <div class="modal fade" id="logout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> Logout</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Apakah Anda Yakin Ingin Keluar <span id="logout-ok"></span>?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Logout</button>
+                    </div>
+                </div>
+            </div><!-- /.end modal-dialog -->
+        </div><!-- /.end modal fate -->
