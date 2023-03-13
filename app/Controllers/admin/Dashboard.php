@@ -54,14 +54,7 @@ class Dashboard extends BaseController
         ];
         return view('admin/proses', $data);
     }
-    public function jabatan()
-    {
 
-        $data = [
-            "title" => "jabatan"
-        ];
-        return view('admin/jabatan', $data);
-    }
     public function tanda_tangan()
     {
 
