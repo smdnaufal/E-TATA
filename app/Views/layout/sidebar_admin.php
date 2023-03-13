@@ -25,7 +25,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item ">
-            <a class="nav-link" href="/admin">
+            <a class="nav-link" href="/adm in">
                 <i class="fas fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -34,6 +34,16 @@
             <a class="nav-link collapsed" href="/admin/Pegawai">
                 <i class="fa-solid fa-users"></i>
                 <span>Daftar Pegawai</span>
+
+            </a>
+
+        </li>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link collapsed" href="/admin/data_admin">
+                <i class="fa-solid fa-users"></i>
+                <span>Data Admin</span>
 
             </a>
 
@@ -54,23 +64,26 @@
             </a>
 
         </li>
-
-
-
-        <!-- Nav Item - Utilities Collapse Menu -->
+        <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Layouts
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
-                                </nav>
-                            </div>
-        </li>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Components</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+        
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -91,14 +104,13 @@
 
         <!-- Nav Item - Tables -->
         <li class="nav-item">
-        <a href="" class="nav-link" data-toggle="modal" data-target="#logout" ><i class="fa-sharp fa-solid fa-power-off"></i>Logout</a>
-                
-              
+            <a href="" class="nav-link" data-toggle="modal" data-target="#logout" >
+            <i class="fa-sharp fa-solid fa-power-off"></i>Logout</a>
         </li>
 
 
         <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
+        <hr class="s">
 
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">

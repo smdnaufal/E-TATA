@@ -13,6 +13,7 @@
 
     <link href="/asset/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="/asset/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/asset/css/nav.css" rel="stylesheet" />
     <title><?= $title; ?></title>
 </head>
 
@@ -49,6 +50,8 @@
 
     <!-- view -->
     <script src="/asset/js/view.js"></script>
+
+    <script src="/asset/js/scripts.js"></script>
 
 </body>
 
