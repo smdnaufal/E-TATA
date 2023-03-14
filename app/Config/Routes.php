@@ -43,6 +43,8 @@ $routes->get('/admin/proses', 'admin\Dashboard::proses');
 $routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
 $routes->get('/admin/Pegawai', 'admin\Dashboard::view');
 $routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
+$routes->get('/admin/surat/sifat_surat', 'admin\Dashboard::sifat_surat');
+$routes->get('/admin/surat/', 'admin\Dashboard::arsip');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
 $routes->get('/user', 'user\Landing_Page::index');
 $routes->get('/user/dashboard', 'user\Landing_Page::dashboard');

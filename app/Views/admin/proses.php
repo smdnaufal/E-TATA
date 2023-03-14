@@ -2,28 +2,18 @@
 
 <?= $this->section('content'); ?>
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
-                    <!-- Content Row -->
-                    <div class="row">
-                    <!-- Content Row -->
+<!-- Begin Page Content -->
+<div class="container-fluid">
 
-                    <div class="row">
-                       
-                            <!-- Area Chart -->
-                            <div class="col-xl-8 col-lg-7">
-                                <div class="card shadow mb-4">
-                                    <!-- Card Header - Dropdown -->
-                                    <div
-                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary"></h6>
-                                        <div class="dropdown no-arrow">
-                                        </div>
-                                    </div>
-                                    <!-- Card Body -->
-                                    <div class="card-body">
-                                    
-                                        <table class="table table-bordered  ">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h4 class="m-0 font-weight-bold text-primary">Daftar Pegawai</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#tambah-data"><i class="fa-solid fa-user-plus me-2"></i>Tambah Data</button>
+                <table class="table table-bordered  ">
                                             <thead class="text-center">
                                                 <tr >
                                                 <th scope="col">No</th>
@@ -51,21 +41,9 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div><!-- /.card body -->
-                                </div><!-- /col -->
 
-                     </div><!-- /.content row -->
-                    </div><!-- /.content row -->
-                </div> <!-- /.container-fluid -->
-               
+            
+    </div> <!-- End of Main Content -->
+</div> <!-- End of Content Wrapper -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2023</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-        <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>
