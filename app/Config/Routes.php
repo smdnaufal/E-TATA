@@ -39,6 +39,7 @@ $routes->get('/user/login', 'user\Landing_Page::login');
 $routes->get('/admin', 'admin\Dashboard::index');
 $routes->get('/admin/login', 'admin\Dashboard::login');
 $routes->get('/admin/jabatan', 'admin\JabatanController::jabatan');
+$routes->delete('/admin/jabatan/(:num)', 'admin\JabatanController::delete/$1');
 $routes->get('/admin/proses', 'admin\Dashboard::proses');
 $routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
 $routes->get('/admin/Pegawai', 'admin\Dashboard::view');

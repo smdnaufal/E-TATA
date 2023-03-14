@@ -2,9 +2,9 @@
 
 <?= $this->section('content'); ?>
 
-<div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>">
-
-</div>
+<div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>"></div>
+<div class="flash-salah" data-flashdata="<?= session()->getFlashdata('salah'); ?>"></div>
+<div class="flash-hapus" data-flashdata="<?= session()->getFlashdata('hapus'); ?>"></div>
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -55,6 +55,7 @@
                                             <td><?= $j['nama_jabatan']; ?></td>
                                             <td class="text-center">
                                                 <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-pen-to-square "></i></a>
+
                                                 <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -66,7 +67,6 @@
                                 <div class="modal-dialog modal-lg">
 
                                     <form action="/admin/JabatanController/save" method="post">
-
                                         <?= csrf_field(); ?>
 
                                         <div class="modal-content">
@@ -82,7 +82,7 @@
                                                         <div class="form-group">
                                                             <label class="control-label col-sm-4" for="jabatan">Jabatan :</label>
                                                             <div class="col-sm-8">
-                                                                <input type="text" class="form-control" autofocus id="jabatan" required name="jabatan">
+                                                                <input type="text" class="form-control" autofocus id="jabatan" required name="nama_jabatan">
                                                             </div>
                                                         </div>
 
@@ -148,7 +148,11 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-danger">Delete</button>
+                                    <form action="/admin/jabatan/<?= $j['id_jabatan']; ?>" method="post" class="d-inline">
+                                        <?= csrf_field(); ?>
+                                        <input type="hidden" name="_method" value="DELETE">
+                                        <button type="submit" class="btn btn-danger alert_notif">Delete</button>
+                                    </form>
                                 </div>
                             </div>
                         </div><!-- /.end modal-dialog -->
