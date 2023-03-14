@@ -33,10 +33,14 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'user\Landing_Page::index');
 $routes->get('/user', 'user\Landing_Page::index');
+$routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
+$routes->get('/user/login', 'user\Landing_Page::login');
 
 $routes->get('/admin', 'admin\Dashboard::index');
-$routes->get('/user/login', 'user\Landing_Page::login');
 $routes->get('/admin/login', 'admin\Dashboard::login');
+$routes->get('/admin/jabatan', 'admin\Dashboard::jabatan');
+$routes->get('/admin/proses', 'admin\Dashboard::proses');
+$routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
 $routes->get('/admin/Pegawai', 'admin\Dashboard::view');
 $routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
@@ -44,7 +48,8 @@ $routes->get('/user', 'user\Landing_Page::index');
 $routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
 $routes->get('/user/berjalan', 'user\Landing_Page::berjalan');
 $routes->get('/user/riwayat', 'user\Landing_Page::riwayat');
-$routes->get('/user/log', 'user\Landing_Page::log');
+$routes->get('/user/login', 'user\Landing_Page::login');
+$routes->get('/user/profil', 'user\Landing_Page::');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

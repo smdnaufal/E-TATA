@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template_user'); ?>
+<?= $this->extend('layout/template_admin'); ?>
 
 <?= $this->section('content'); ?>
 
@@ -8,7 +8,7 @@
                     <div class="row">
                     <!-- Content Row -->
 
-                    <div class="row justify-content-center">
+                    <div class="row">
                        
                             <!-- Area Chart -->
                             <div class="col-xl-8 col-lg-7">
@@ -46,7 +46,7 @@
                                                 <td class="text-center">
                                                 <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-eye"></i>    Preview</a>
 
-                                                <a type="button" class="btn btn-danger btn-sm"><i class="fa-solid fa-square-check"></i>   selesai</a>
+                                                <a type="button" class="btn btn-success btn-sm"><i class="fa-solid fa-square-check"></i>   Proses</a>
                                                 </td>
                                                 </tr>
                                             </tbody>

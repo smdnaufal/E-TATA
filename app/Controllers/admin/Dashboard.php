@@ -46,6 +46,55 @@ class Dashboard extends BaseController
         ];
         return view('admin/Pegawai/detail', $data);
     }
+    public function proses()
+    {
+
+        $data = [
+            "title" => "proses"
+        ];
+        return view('admin/proses', $data);
+    }
+
+    public function tanda_tangan()
+    {
+
+        $data = [
+            "title" => "tanda_tangan"
+        ];
+        return view('admin/tanda_tangan', $data);
+    }
+    public function profil()
+    {
+
+        $data = [
+            "title" => "profil"
+        ];
+        return view('admin/profil', $data);
+    }
+    public function data_admin()
+    {
+
+        $data = [
+            "title" => "data_admin"
+        ];
+        return view('admin/data_admin', $data);
+    }
+    public function arsip()
+    {
+
+        $data = [
+            "title" => "arsip"
+        ];
+        return view('admin/surat/arsip', $data);
+    }
+    public function sifat_surat()
+    {
+
+        $data = [
+            "title" => "sifat_surat"
+        ];
+        return view('admin/surat/sifat_surat', $data);
+    }
    
 
 }
