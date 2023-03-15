@@ -67,14 +67,14 @@
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item dropdown">
         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i> Layouts</div>
+                                <div class="sb-nav-link-icon"><i class="fa-sharp fa-solid fa-envelopes-bulk"></i></i> Surat</div>
                                
                                 <div class="sb-sidenav-collapse-arrow"></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                                    <a class="nav-link" href="/admin/surat">Arsip</a>
+                                    <a class="nav-link" href="/admin/surat/sifat_surat">Sifat Surat </a>
                                 </nav>
                             </div>
         </li>
@@ -223,7 +223,7 @@
                         </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="/admin/profil">
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Profile
                             </a>

@@ -8,29 +8,29 @@
     <div class="row">
         <!-- Content Row -->
 
-        <div class="row justify-content-center">
+        <div class="row ">
 
             <!-- Area Chart -->
-            <div class="col-xl-8 col-lg-7">
+            <div class="">
                 <div class="card shadow mb-4">
                     <!-- Card Header - Dropdown -->
                     <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                        <h6 class="m-0 font-weight-bold text-primary">Data Penanda Tangan</h6>
+                        <h5 class="m-0 font-weight-bold text-primary">Data Penanda Tangan</h5>
                         <div class="dropdown no-arrow">
-
                         </div>
                     </div>
-                    <!-- Card Body -->
-                    <div class="card-body">
+                <div class="table-responsive">
+                     <!-- Card Body -->
+                     <div class="card-body">
                         <div class="container">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-8">
                                     <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#tambah-data">
                                         <i class="fa-solid fa-user-plus me-2"></i>Tambah Data</button>
                                 </div>
                                 <div class="col">
                                     <form class="d-flex" role="search">
-                                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                        <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
                                         <button class="btn btn-outline-primary" type="submit">Search</button>
                                     </form>
                                 </div>
@@ -158,20 +158,11 @@
             </div><!-- /.end modal fate -->
 
         </div><!-- /.card body -->
+
+                </div>
     </div><!-- /col -->
 
 </div><!-- /.content row -->
 </div><!-- /.content row -->
 </div> <!-- /.container-fluid -->
-
-
-<!-- Footer -->
-<footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2023</span>
-        </div>
-    </div>
-</footer>
-<!-- End of Footer -->
 <?= $this->endSection(); ?>
