@@ -25,7 +25,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item ">
-            <a class="nav-link" href="/admin">
+            <a class="nav-link" href="/adm in">
                 <i class="fas fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -34,6 +34,16 @@
             <a class="nav-link collapsed" href="/admin/Pegawai">
                 <i class="fa-solid fa-users"></i>
                 <span>Daftar Pegawai</span>
+
+            </a>
+
+        </li>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link collapsed" href="/admin/data_admin">
+                <i class="fa-solid fa-users"></i>
+                <span>Data Admin</span>
 
             </a>
 
@@ -54,15 +64,12 @@
             </a>
 
         </li>
-
-
-
-        <!-- Nav Item - Utilities Collapse Menu -->
-        <li class="nav-item">
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item dropdown">
         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Layouts
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i> Layouts</div>
+                               
+                                <div class="sb-sidenav-collapse-arrow"></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
@@ -71,6 +78,11 @@
                                 </nav>
                             </div>
         </li>
+
+
+
+
+        
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -91,14 +103,13 @@
 
         <!-- Nav Item - Tables -->
         <li class="nav-item">
-        <a href="" class="nav-link" data-toggle="modal" data-target="#logout" ><i class="fa-sharp fa-solid fa-power-off"></i>Logout</a>
-                
-              
+            <a href="" class="nav-link" data-toggle="modal" data-target="#logout" >
+            <i class="fa-sharp fa-solid fa-power-off"></i>Logout</a>
         </li>
 
 
         <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
+        <hr class="s">
 
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">

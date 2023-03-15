@@ -1,6 +1,7 @@
 const flashData = $('.flash-data').data('flashdata');
 const flashSalah = $('.flash-salah').data('flashdata');
 const flashHapus = $('.flash-hapus').data('flashdata');
+const flashUbah = $('.flash-ubah').data('flashdata');
 
 if(flashData){
     Swal.fire(
@@ -23,6 +24,14 @@ if(flashHapus){
   Swal.fire(
       'SUKSES!',
       'Data berhasil dihapus!',
+      'success'
+    )
+}
+
+if(flashUbah){
+  Swal.fire(
+      'SUKSES!',
+      'Data berhasil diubah!',
       'success'
     )
 }
