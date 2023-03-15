@@ -38,18 +38,17 @@ $routes->get('/user/login', 'user\Landing_Page::login');
 
 $routes->get('/admin', 'admin\Dashboard::index');
 $routes->get('/admin/login', 'admin\Dashboard::login');
-$routes->get('/admin/data_admin', 'admin\Dashboard::data_admin');
-$routes->get('/admin/profil', 'admin\Dashboard::profil');
-$routes->get('/admin/jabatan', 'admin\Dashboard::jabatan');
+$routes->get('/admin/jabatan', 'admin\JabatanController::jabatan');
+$routes->delete('/admin/jabatan/(:num)', 'admin\JabatanController::delete/$1');
+$routes->get('/admin/jabatan/Edit/(:num)', 'admin\JabatanController::edit/$1');
 $routes->get('/admin/proses', 'admin\Dashboard::proses');
+$routes->get('/admin/data_admin', 'admin\Dashboard::data_admin');
 $routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
 $routes->get('/admin/Pegawai', 'admin\Dashboard::view');
 $routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
 $routes->get('/admin/surat/sifat_surat', 'admin\Dashboard::sifat_surat');
 $routes->get('/admin/surat/', 'admin\Dashboard::arsip');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
-$routes->get('/user', 'user\Landing_Page::index');
-$routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

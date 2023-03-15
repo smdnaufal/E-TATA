@@ -36,7 +36,7 @@ class Dashboard extends BaseController
         $data = [
             "title" => "jabatan"
         ];
-        return view('admin/jabatan', $data);
+        return view('admin/jabatan/view', $data);
     }
     public function edit()
     {

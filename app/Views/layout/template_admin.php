@@ -31,42 +31,31 @@
         </div>
     </footer>
     <!-- End of Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>   
+
+    <!-- link javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Bootstrap core JavaScript-->
+
+    <!-- file JavaScript-->
     <script src="/asset/js/jquery.min.js"></script>
     <script src="/asset/js/jquery.js"></script>
     <script src="/asset/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
     <script src="/asset/js/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
     <script src="/asset/js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
     <script src="/asset/js/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
     <script src="/asset/js/chart-area-demo.js"></script>
     <script src="/asset/js/chart-pie-demo.js"></script>
     <script src="/asset/js/jquery.dataTables.min.js"></script>
     <script src="/asset/js/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
     <script src="/asset/js/datatables-demo.js"></script>
-
-    <!-- view -->
     <script src="/asset/js/view.js"></script>
     <script src="/asset/js/sweetalert2.all.min.js"></script>
     <script src="/asset/js/main.js"></script>
-
-
     <script src="/asset/js/scripts.js"></script>
     <script src="/asset/js/datatables-simple-demo.js"></script>
 
