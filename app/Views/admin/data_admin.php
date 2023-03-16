@@ -2,73 +2,73 @@
 
 <?= $this->section('content'); ?>
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
-                    <!-- Content Row -->
-                    <div class="row">
-                    <!-- Content Row -->
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Content Row -->
 
-                    <div class="row justify-content-center">
-                       
-                            <!-- Area Chart -->
-                            <div class="col-xl-8 col-lg-7">
-                                <div class="card shadow mb-4">
-                                    <!-- Card Header - Dropdown -->
-                                    <div
-                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Data Admin</h6>
-                                        <div class="dropdown no-arrow">
-                                            
-                                        </div>
-                                    </div>
-                                    <!-- Card Body -->
-                                    <div class="card-body">
-                                    <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-9">
-                                        <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#tambah-data">
+        <div class="row justify-content-center">
+
+            <!-- Area Chart -->
+            <div class="">
+                <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-primary">Data Admin</h6>
+                        <div class="dropdown no-arrow">
+
+                        </div>
+                    </div>
+                    <div class="table responsiv">
+                        <!-- Card Body -->
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#tambah-data">
                                         <i class="fa-solid fa-user-plus me-3"></i>Tambah Data</button>
-                                        </div>
-                                        <div class="col">
-                                        <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#edit-password">
-                                            <i class="fa-solid fa-pen-to-square me-3"></i> Ubah Password</button>
-                                        </div>
-                                    </div>
-                                        <table class="table table-bordered mt-3">
-                                            <thead class="text-center">
-                                                <tr >
-                                                <th scope="col">No</th>
-                                                <th scope="col">Nama Admin</th>
-                                                <th scope="col">Nip</th>
-                                                <th scope="col">Password</th>
-                                                <th scope="col">Aksi</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                <td>1</td>
-                                                <td>Dr Sidik Herman S.Sn., M.M</td>
-                                                <td>8877234440988</td>
-                                                <td></td>
-                                                <td class="text-center">
-                                                <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-pen-to-square "></i></a>
-                                                <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
-                                                </td>
-                                                </tr>
-                                            </tbody>
-                                            <tbody>
-                                                <tr>
-                                                <td>2</td>
-                                                <td>Emy Fibrianti, S.E, M.M</td>
-                                                <td>87223334539393</td>
-                                                <td></td>
-                                                <td class="text-center">
-                                                <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-pen-to-square "></i></a>
-                                                <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
-                                                </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                </div>
+                                <div class="col">
+                                    <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#edit-password">
+                                        <i class="fa-solid fa-pen-to-square me-3"></i> Ubah Password</button>
+                                </div>
+                            </div>
+                            <table class="table table-bordered mt-3">
+                                <thead class="text-center">
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Nama Admin</th>
+                                        <th scope="col">Nip</th>
+                                        <th scope="col">Password</th>
+                                        <th scope="col">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr Sidik Herman S.Sn., M.M</td>
+                                        <td>8877234440988</td>
+                                        <td></td>
+                                        <td class="text-center">
+                                            <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-pen-to-square "></i></a>
+                                            <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Emy Fibrianti, S.E, M.M</td>
+                                        <td>87223334539393</td>
+                                        <td></td>
+                                        <td class="text-center">
+                                            <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data"><i class="fa-solid fa-pen-to-square "></i></a>
+                                            <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
                 <div class="modal fade" id="tambah-data" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg ">
@@ -218,6 +218,8 @@
         </div><!-- /.end modal fate -->
                                         
                                     </div><!-- /.card body -->
+
+                    </div>
                                 </div><!-- /col -->
 
                      </div><!-- /.content row -->
