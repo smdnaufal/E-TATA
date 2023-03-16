@@ -103,6 +103,14 @@ class Dashboard extends BaseController
         ];
         return view('admin/surat/sifat_surat', $data);
     }
+    public function laporan()
+    {
+
+        $data = [
+            "title" => "laporan"
+        ];
+        return view('admin/laporan', $data);
+    }
    
 
 }

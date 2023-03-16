@@ -96,7 +96,7 @@
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/admin/laporan">
                 <i class="fa-solid fa-flag"></i>
                 <span>Laporan</span></a>
         </li>
