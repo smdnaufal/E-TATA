@@ -22,65 +22,39 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-2 pt-4">
+                                       
+                                        <div class="row">
+                                            <div class="col">
+                                                    <span class="text-center"></span>
+                                                    <br>  <div class="col-md-8 pt-4">
                                             <img src="/img/bspji.png" alt="" width="100" height="120" style="border-radius: 100px; -moz-border-radius: 100px;">
-                                        <a href="" class="ms-3  fw-bold">Ubah Foto</a>
-                                        </div>
-                                        <div class="col">
-                                            <div class="card-body">
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">Nama Lengkap</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">Andreas Johan</div>
-                                                     </div>
+                                                      <a href="" class="ms fw-bold">Ubah Foto</a>
+                                                           </div>
+                                                         <br><br> <table class="table"></table></div>
+                                                          <div class="col-md-9"><table class="table table">
+                                                            <tbody>
+                                                                <tr>
+                                                                <td width="30%">Nama</td><td width="3%">:</td>
+                                                            <td colspan="2">Zainudin masfut</td>
+                                                        </tr> 
+                                                            <tr><td width="30%">NIP</td>
+                                                            <td width="3%">:</td><td colspan="2">6407141610020001</td></tr> 
+                                                            <tr><td>No. KK</td><td>:</td><td>6407140206080007</td></tr>
+                                                             <tr><td>Jenis Kelamin</td><td>:</td>
+                                                             <td colspan="2">Laki-laki</td></tr>
+                                                              <tr><td width="35%">Tempat Lahir</td>
+                                                              <td width="3%">:</td>
+                                                              <td colspan="2">Samarinda</td></tr>
+                                                               <tr><td>Tanggal Lahir</td><td>:</td><td colspan="2">16 October 1998</td></tr> 
+                                                               <tr><td>Agama</td><td>:</td><td colspan="2">Kristen</td>
+                                                            </tr> <tr><td>Jabatan</td>
+                                                            <td>:</td>
+                                                            <td colspan="2">Pegawai</td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
                                                 </div>
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">Nip</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">198609262015051</div>
-                                                     </div>
-                                                </div>
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">Alamat</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">Jl.kh.Wahid Hasyim 2 Gg.Wahyu Dalam</div>
-                                                     </div>
-                                                </div>
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">No Hp</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">082353373130</div>
-                                                     </div>
-                                                </div>
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">Email</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">2043023@wicida.ac.id</div>
-                                                     </div>
-                                                </div>
-                                                <div class="row gy-5">
-                                                    <div class="col-7">
-                                                        <div class="p-3 fw-bold">Tempat, Tanggal Lahir</div>
-                                                    </div>
-                                                     <div class="col">
-                                                         <div class="p-3">Manggarai, 02 Februari 2002</div>
-                                                     </div>
-                                                </div>   
-                                    </div><!-- Row -->
-                                </div><!-- end Card containner -->
-                                    <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data" data-nip="198609262015051" data-nama="Andraes Johan" data-email="cobaaja@gmail.com" data-no="082353373130">
-                                    <i class="fa-solid fa-pen-to-square "></i>    Edit Data</a>
-                            </div><!-- end Card Body -->
+                                            </div>
                                                  
                 <div class="modal fade" id="edit-data" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl rotateInDownLeft animated ">

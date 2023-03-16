@@ -51,7 +51,7 @@ $routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
 $routes->get('/user/berjalan', 'user\Landing_Page::berjalan');
 $routes->get('/user/riwayat', 'user\Landing_Page::riwayat');
 $routes->get('/user/login', 'user\Landing_Page::login');
-$routes->get('/user/profil', 'user\Landing_Page::');
+$routes->get('/user/profil', 'user\Landing_Page::profil');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
