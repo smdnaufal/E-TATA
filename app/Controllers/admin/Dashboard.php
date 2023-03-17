@@ -87,14 +87,6 @@ class Dashboard extends BaseController
         ];
         return view('admin/data_admin', $data);
     }
-    public function arsip()
-    {
-
-        $data = [
-            "title" => "arsip"
-        ];
-        return view('admin/surat/arsip', $data);
-    }
     public function sifat_surat()
     {
 

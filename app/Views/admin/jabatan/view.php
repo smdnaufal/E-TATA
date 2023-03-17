@@ -83,8 +83,8 @@
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label class="control-label col-sm-4" for="jabatan">Jabatan :</label>
-                                                            <div class="col-sm-8">
-                                                                <input type="text" class="form-control" autofocus id="jabatan" required name="nama_jabatan">
+                                                            <div class="col-md-12">
+                                                                <input type="text" class="form-control" placeholder="Input Jabatan" autofocus id="jabatan" required name="nama_jabatan">
                                                             </div>
                                                         </div>
 

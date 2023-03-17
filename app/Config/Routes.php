@@ -48,8 +48,12 @@ $routes->get('/admin/data_admin', 'admin\Dashboard::data_admin');
 $routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
 $routes->get('/admin/Pegawai', 'admin\Dashboard::view');
 $routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
-$routes->get('/admin/surat/sifat_surat', 'admin\Dashboard::sifat_surat');
-$routes->get('/admin/surat/', 'admin\Dashboard::arsip');
+$routes->get('/admin/jenis', 'admin\JenisController::jenis');
+$routes->delete('/admin/jenis/(:num)', 'admin\JenisController::delete/$1');
+$routes->get('/admin/jenis/Edit/(:num)', 'admin\JenisController::edit/$1');
+$routes->get('/admin/surat/', 'admin\ArsipController::arsip');
+$routes->delete('/admin/surat/(:num)', 'admin\ArsipController::delete/$1');
+$routes->get('/admin/surat/Edit/(:num)', 'admin\ArsipController::edit/$1');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
 
 /*

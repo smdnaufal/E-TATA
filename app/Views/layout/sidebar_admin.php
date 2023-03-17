@@ -74,7 +74,7 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="/admin/surat">Arsip</a>
-                                    <a class="nav-link" href="/admin/surat/sifat_surat">Sifat Surat </a>
+                                    <a class="nav-link" href="/admin/jenis">Sifat Surat </a>
                                 </nav>
                             </div>
         </li>
