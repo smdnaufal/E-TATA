@@ -24,7 +24,7 @@
                 <a class="nav-link" aria-current="page" href="#beranda">Home</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#kontak">Contact</a>
-                <a href="asset" class="btn btn-success">Login</a>
+                <a href="user/login" class="btn btn-success">Login</a>
             </div>
         </div>
     </div>

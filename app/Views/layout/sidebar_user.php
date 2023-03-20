@@ -68,7 +68,7 @@
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-    <a class="nav-link collapsed" href="/user/Landing_page">
+    <a class="nav-link collapsed" href="index">
     <i class="fa-solid fa-right-from-bracket"></i>
             <span>Log Out</span></a>
     </li>
