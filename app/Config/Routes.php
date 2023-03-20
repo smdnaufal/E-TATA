@@ -31,7 +31,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-$routes->get('/user', 'user\Landing_Page::index');
+$routes->get('/user/index', 'user\Landing_Page::index');
 $routes->get('/user/dashboard', 'user\Landing_Page::dashboard');
 $routes->get('/user/berjalan', 'user\Landing_Page::berjalan');
 $routes->get('/user/riwayat', 'user\Landing_Page::riwayat');
@@ -47,12 +47,15 @@ $routes->get('/admin/jabatan/Edit/(:num)', 'admin\JabatanController::edit/$1');
 $routes->get('/admin/proses', 'admin\Dashboard::proses');
 $routes->get('/admin/data_admin', 'admin\Dashboard::data_admin');
 $routes->get('/admin/tanda_tangan', 'admin\Dashboard::tanda_tangan');
-$routes->get('/admin/Pegawai', 'admin\Dashboard::view');
-$routes->get('/admin/Pegawai/Edit', 'admin\Dashboard::edit');
-$routes->get('/admin/pegawai/profil_pegawai', 'admin\Dashboard::profil_pegawai');
-$routes->get('/admin/surat/sifat_surat', 'admin\Dashboard::sifat_surat');
-$routes->get('/admin/surat/', 'admin\Dashboard::arsip');
-$routes->get('/admin/laporan', 'admin\Dashboard::laporan');
+$routes->get('/admin/Pegawai', 'admin\PegawaiController::pegawai');
+$routes->delete('/admin/Pegawai/(:num)', 'admin\PegawaiController::delete/$1');
+$routes->get('/admin/Pegawai/Edit/(:num)', 'admin\PegawaiController::edit/$1');
+$routes->get('/admin/jenis', 'admin\JenisController::jenis');
+$routes->delete('/admin/jenis/(:num)', 'admin\JenisController::delete/$1');
+$routes->get('/admin/jenis/Edit/(:num)', 'admin\JenisController::edit/$1');
+$routes->get('/admin/surat/', 'admin\ArsipController::arsip');
+$routes->delete('/admin/surat/(:num)', 'admin\ArsipController::delete/$1');
+$routes->get('/admin/surat/Edit/(:num)', 'admin\ArsipController::edit/$1');
 $routes->get('/admin/Pegawai/detail', 'admin\Dashboard::detail');
 
 /*
