@@ -8,11 +8,10 @@
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h4 class="m-0 font-weight-bold text-primary">Daftar Pegawai</h4>
+            <h4 class="m-0 font-weight-bold text-primary">Dalam Proses</h4>
         </div>
         <div class="card-body">
             <div class="table-a">
-                <button type="button" class="btn btn-primary btn-sm mb-2" data-toggle="modal" data-target="#tambah-data"><i class="fa-solid fa-user-plus me-2"></i>Tambah Data</button>
                 <table class="table table-bordered  ">
                                             <thead class="text-center">
                                                 <tr >

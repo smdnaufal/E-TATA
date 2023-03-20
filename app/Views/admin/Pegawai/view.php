@@ -36,7 +36,7 @@
 
                                 <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data" data-nama="Andraes Johan"><i class="fa-solid fa-trash"></i></a>
 
-                                <a href="#" class="btn btn-secondary btn-sm"><i class="fa-solid fa-circle-info"></i></a>
+                                <a href="/admin/pegawai/profil_pegawai" class="btn btn-secondary btn-sm"><i class="fa-solid fa-circle-info"></i></a>
                             </td>
                         </tr>
 

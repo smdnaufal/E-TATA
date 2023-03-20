@@ -30,6 +30,14 @@ class Dashboard extends BaseController
         ];
         return view('admin/Pegawai/view', $data);
     }
+    public function profil_pegawai()
+    {
+
+        $data = [
+            "title" => "profil_pegawai"
+        ];
+        return view('admin/Pegawai/profil_pegawai', $data);
+    }
     public function jabatan()
     {
 
