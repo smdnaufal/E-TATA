@@ -75,7 +75,7 @@
                                                      <div class="col">
                                                          <div class="p-3">Manggarai, 02 Februari 2002</div>
                                                      </div>
-                                                </div>   
+                                            </div>   
                                     </div><!-- Row -->
                                 </div><!-- end Card containner -->
                                     <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit-data" data-nip="198609262015051" data-nama="Andraes Johan" data-email="cobaaja@gmail.com" data-no="082353373130">
@@ -160,15 +160,4 @@
                      </div><!-- /.content row -->
                     </div><!-- /.content row -->
                 </div> <!-- /.container-fluid -->
-               
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2023</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
         <?= $this->endSection(); ?>

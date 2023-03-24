@@ -40,6 +40,7 @@ $routes->get('/user/profil', 'user\Landing_Page::profil');
 
 $routes->get('/admin', 'admin\Dashboard::index');
 $routes->get('/admin/login', 'admin\Dashboard::login');
+$routes->get('/admin/profil', 'admin\Dashboard::profil');
 $routes->get('/admin/jabatan', 'admin\JabatanController::jabatan');
 $routes->delete('/admin/jabatan/(:num)', 'admin\JabatanController::delete/$1');
 $routes->get('/admin/jabatan/Edit/(:num)', 'admin\JabatanController::edit/$1');
