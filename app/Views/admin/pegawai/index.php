@@ -25,25 +25,26 @@
                             <th>Nama Lengkap</th>
                             <th>Email</th>
                             <th>No Hp</th>
+
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <?php $i = 1; ?>
-                    <?php foreach ($query as $q) : ?>
-                        <tr>
-                            <td><?= $i++; ?></td>
-                            <td><?= $q['nip']; ?></td>
-                            <td><?= $q['nama_lengkap']; ?></td>
-                            <td><?= $q['email']; ?></td>
-                            <td><?= $q['no_hp']; ?></td>
-                            <td class="text-center">
-                                <a href="" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square "></i></a>
+                        <?php $i = 1; ?>
+                        <?php foreach ($query as $q) : ?>
+                            <tr>
+                                <td><?= $i++; ?></td>
+                                <td><?= $q['nip']; ?></td>
+                                <td><?= $q['nama_lengkap']; ?></td>
+                                <td><?= $q['email']; ?></td>
+                                <td><?= $q['no_hp']; ?></td>
+                                <td class="text-center">
+                                    <a href="/admin/Pegawai/Edit/<?= $q['id_pegawai']; ?>" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
 
-                                <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                    <?php endforeach; ?>
+                                    <a type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data"><i class="fa-solid fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
                     </tbody>
                 </table>
 
@@ -82,8 +83,8 @@
                                                 <label class="control-label col-sm-4" for="jk_mhs">Jenis Kelamin :</label>
                                                 <div class="col-sm-8"><select id="jk_mhs" required name="gender" class="form-control select2" style="width: 100%;">
                                                         <option value="" disabled selected="selected">Pilih Jenis Kelamin</option>
-                                                        <option value="Pria">Laki laki</option>
-                                                        <option value="Wanita">Perempuan</option>
+                                                        <option value="Pria">Pria</option>
+                                                        <option value="Wanita">Wanita</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -122,29 +123,29 @@
                                             <div class="form-group">
                                                 <label class="control-label col-sm-4" for="jabatan">Jabatan :</label>
                                                 <div class="col-sm-8"><select id="agama_mhs" name="jabatan" required class="form-control select2">
-                                                <option value="" disabled selected="selected">Pilih Jabatan</option>
-                                                <?php foreach ($tinggi as $j) : ?>
-                                                    <option value="<?= $j['id_jabatan'] ?>"><?= $j['nama_jabatan'] ?></option>
-                                                <?php endforeach; ?>
+                                                        <option value="" disabled selected="selected">Pilih Jabatan</option>
+                                                        <?php foreach ($tinggi as $j) : ?>
+                                                            <option value="<?= $j['id_jabatan'] ?>"><?= $j['nama_jabatan'] ?></option>
+                                                        <?php endforeach; ?>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label col-sm-4">Level :</label>
                                                 <div class="col-sm-8"><select id="agama_mhs" name="level" required class="form-control select2">
-                                                <option value="" disabled selected="selected">Pilih Level</option>
-                                                <?php foreach ($easy as $e) : ?>
-                                                    <option value="<?= $e['id_level'] ?>"><?= $e['nama_level'] ?></option>
-                                                <?php endforeach; ?>
+                                                        <option value="" disabled selected="selected">Pilih Level</option>
+                                                        <?php foreach ($easy as $e) : ?>
+                                                            <option value="<?= $e['id_level'] ?>"><?= $e['nama_level'] ?></option>
+                                                        <?php endforeach; ?>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-sm-10">
-                                            <div class="modal-footer ">
-                                                <input type="submit" name="submit" class="btn btn-primary" value="Tambah Data">
-                                                <!-- <a href="reset" class="btn btn-warning">Reset</a> -->
-                                                <a  class="btn btn-danger" data-dismiss="modal">Batal</a>
-                                            </div>  
+                                                <div class="modal-footer ">
+                                                    <input type="submit" name="submit" class="btn btn-primary" value="Tambah Data">
+                                                    <!-- <a href="reset" class="btn btn-warning">Reset</a> -->
+                                                    <a class="btn btn-danger" data-dismiss="modal">Batal</a>
+                                                </div>
                                             </div><!-- /.box-footer -->
                                         </div> <!-- /.end row -->
                                     </div> <!-- /.end panel -->
@@ -154,34 +155,34 @@
                 </div> <!-- /.end modal-dialog -->
             </div> <!-- /.end modal fate -->
 
-        <div class="modal fade" id="delete-data" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+            <div class="modal fade" id="delete-data" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Apakah anda yakin akan menghapus data ini ?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <form action="/admin/Pegawai/<?= $q['id_pegawai']; ?>" method="post" class="d-inline">
+                                <?= csrf_field(); ?>
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" class="btn btn-danger alert_notif">Delete</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        Apakah anda yakin akan menghapus <span id="delete-nama">Nama</span>?
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <form action="/admin/Pegawai/<?= $q['id_pegawai']; ?>" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger alert_notif">Delete</button>
-                        </form>     
-                    </div>
-                </div>
-            </div><!-- /.end modal-dialog -->
-        </div><!-- /.end modal fate -->
-
-        
+                </div><!-- /.end modal-dialog -->
+            </div><!-- /.end modal fate -->
 
 
-    </div> <!-- End of Main Content -->
-</div> <!-- End of Content Wrapper -->
 
-<?= $this->endSection(); ?>
+
+        </div> <!-- End of Main Content -->
+    </div> <!-- End of Content Wrapper -->
+
+    <?= $this->endSection(); ?>
